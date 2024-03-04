@@ -1,0 +1,217 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Fatime Ndiaye
+theme : hugo-profile
+
+params :
+  title: Fatime Ndiaye
+  favicon: "../../../../assets/fav.png"
+
+  theme:
+    default theme: "dark"
+
+  navbar:
+    stickyNavBar:
+      enable: true
+      showOnScrollUp : true
+
+  hero:
+    enable: true
+    intro: "Mon nom est "
+    title: "Fatime Ndiaye"
+    subtitle: "Developpeuse FullStack"
+    content: "Je suis actuellement en troisième année de Bachelor Universitaire Technologique en département Informatique à Toulouse.
+    Je suis à la recherche d'une formation MIAGE pour le début de l'année scolaire 2024."
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-linkedin-in
+          url: https://www.linkedin.com/in/fatime-ndiaye-ndiaye-4bb4b224b/
+        - icon: fab fa-github
+          url: https://github.com/Fatime31
+    button:
+      enable: true
+      name : "Vous pouvez télécharger ici mon CV papier"
+      url : "https://drive.google.com/file/d/13IAnBUdE4fMlHJgjRuEQDTLoyyXN_u04/view?usp=share_link"
+      download: true
+
+    button1:
+      enable: true
+      name: "Vous retrouverez ici mon CV vidéo"
+      url: "https://youtu.be/laAqo1_AjPo"
+      download: true
+
+  about:
+    enable: true
+    title: 'Qui suis je ?'
+    image: '../../../../assets/IMG_2269.jpg'
+    content: |-
+      Je m'appelle Fatime Ndiaye et je suis passionnée de développement Web depuis maintenant cinq ans. Je suis actuellement dans ma troisième et dernière année
+      de Bachelor Universitaire en informatique. Ces trois années d'apprentissage m'ont permises d'avoir un bagage plus important dans de nombreux langages. Que ce soit des langages
+      accès sur le développement web, d'application ou encore les bases de données.
+
+    skills:
+      enable: true
+      title: "Voici les différents langages que j'ai appris jusqu'à présent :"
+      items:
+        - "HTML"
+        - "CSS"
+        - "JavaScript"
+        - "SQL"
+        - "JAVA"
+        - "ABAP"
+        - "XML"
+        - "Python"
+        - "C"
+        - "Node JS"
+
+  # Experience
+  experience:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - job: "Alternance"
+        company: "Vinci Energies"
+        date: "Septembre 2023 - present"
+        info:
+          enable: false
+        content: "Je suis actuellement en alternance dans la société Vinci Energies Systèmes d'Information se trouvant à Saint-Denis.
+        Lors de cette alternance, je programme en langage ABAP et j'utilise l'environnement SAPUI5. "
+
+      - job: "Stage"
+        company: "Vinci Energies "
+        date: "Avril 2023 - Juillet 2023"
+        info:
+          enable: false
+        content: |
+          Lors de ce stage réalisé pendant ma deuxième année d'apprentissage, j'ai développé un site web pour l'équipe de développement de l'entreprise en HTML et CSS.
+
+  # Education
+  education:
+    enable: true
+    title: "Compétences acquises"
+    index: false
+    items:
+      - title: "Réaliser"
+        school:
+          name: "Développer, c'est à dire concevoir, coder, tester et intégrer une solution informatique pour un client."
+        content: |-
+          
+            - Élaborer une application informatique.
+            - Faire évoluer une application informatique.
+            - Maintenir en conditions opérationnelles une application informatique.
+
+        featuredLink:
+          enable: true
+          name: "Application de recyclage de déchet"
+          url: "https://github.com/Fatime31/Android"
+        featuredLink1:
+          enable: true
+          name: "Application de gestion de tournoi esport"
+          url: "https://github.com/paria12/JavaProject"
+        featuredLink2:
+          enable: true
+          name: "Site Web de l'équipe de développement"
+          url: ""
+
+      - title: "Optimiser"
+        school:
+          name: "Proposer des applications informatiques optimisées en fonction de critères spécifiques : temps d’exécution, précision, consommation de ressources.."
+        content: |-
+         
+          - Améliorer les performances des programmes dans des contextes contraints.
+          - Limiter l’impact environnemental d’une application informatique.
+          - Mettre en place des applications informatiques adaptées et efficaces
+
+        featuredLink:
+          enable: true
+          name: "Algorithme de résolution de Sudoku"
+          url: ""
+        featuredLink1:
+          enable: true
+          name: "Application de gestion de tournoi esport"
+          url: "https://github.com/paria12/JavaProject"
+        featuredLink2:
+          enable: true
+          name: "Algorithme de débruitage d'image"
+          url: "https://github.com/Fatime31/Python-bruitage"
+
+      - title: "Administrer"
+        school:
+          name: "Installer, configurer, mettre à disposition, maintenir en conditions opérationnelles des infrastructures, des services et des réseaux et optimiser le système informatique d’une organisation."
+        content: |-
+          - Déployer une nouvelle architecture technique.
+          - Améliorer une infrastructure existante.
+          - Sécuriser les applications et les services.
+        featuredLink:
+          enable: true
+          url: "https://example.com"
+          name: "Création d'un environnement Linux"
+        featuredLink1:
+          enable: true
+          name: "API REST"
+          url: "https://github.com/leobbx/R4.01API"
+
+      - title: "Gérer"
+        school:
+          name: "Concevoir, gérer, administrer et exploiter les données de l’entreprise et mettre à disposition toutes les informations pour un bon pilotage de l’entreprise."
+        content: |-
+          - Lancer un nouveau projet.
+          - Sécuriser des données.
+          - Exploiter des données pour la prise de décisions
+        featuredLink:
+          enable: true
+          url: "https://example.com"
+          name: "Application de vente de fromages"
+
+        featuredLink1:
+          enable: true
+          name: "Application de gestion de tournoi esport"
+          url: "https://github.com/paria12/JavaProject"
+
+      - title: "Conduire"
+        school:
+          name: "Satisfaire les besoins des utilisateurs au regard de la chaîne de valeur du client, organiser et piloter un projet informatique avec des méthodes classiques ou agiles."
+        content: |-
+          - Lancer un nouveau projet.
+          - Piloter le maintien d’un projet en condition opérationnelle.
+          - Faire évoluer un système d’information.
+
+        featuredLink1:
+          enable: true
+          name: "Application de gestion de tournoi esport"
+          url: "https://github.com/paria12/JavaProject"
+
+      - title: "Collaborer"
+        school:
+          name: "Acquérir, développer et exploiter les aptitudes nécessaires pour travailler efficacement dans une équipe informatique."
+        content: |-
+          - Lancer un nouveau projet.
+          - Organiser son travail en relation avec celui de son équipe.
+          - Élaborer, gérer et transmettre de l’information.
+        featuredLink:
+          enable: true
+          url: "https://example.com"
+          name: "Application de vente de fromages"
+
+        featuredLink1:
+          enable: true
+          name: "Application de gestion de tournoi esport"
+          url: "https://github.com/paria12/JavaProject"
+
+        featuredLink2:
+          enable: true
+          name: "API REST"
+          url: "https://github.com/leobbx/R4.01API"
+
+    #Contact
+  contact:
+    enable: true
+    title: "Me contacter"
+    content: Je suis toujours à disposition si besoin. Si vous avez une question ou êtes intéréssé par mon profil, n'hésitez pas à me contacter.
+    email: fatimendiaye14@gmail.com
+    btnName: Contactez-moi
+
+  footer:
+    socialNetworks:
+      github: https://github.com/Fatime31
+      linkedin: https://www.linkedin.com/in/fatime-ndiaye-ndiaye-4bb4b224b/
